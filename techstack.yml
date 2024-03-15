@@ -1,0 +1,78 @@
+repo_name: ctavolazzi/TRPG
+report_id: d37f1649ba0465a086f0008d708db43c
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:02:18+00:00'
+requested_by: cordeirossauro
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/TRPG
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/TRPG
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/TRPG/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Vinicius Cordeiro
+  last_updated_on: 2021-10-17 02:21:19.000000000 Z
+- name: joblib
+  description: 'Lightweight pipelining: using Python functions as pipeline jobs'
+  package_url: https://pypi.org/project/joblib
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20033/default_5a21cf44b42c3ef13f57dcd42ae753240ea7e808.png
+  detection_source_url: https://github.com/ctavolazzi/TRPG/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Vinicius Cordeiro
+  last_updated_on: 2021-11-01 17:52:53.000000000 Z
+  vulnerabilities:
+  - name: joblib vulnerable to arbitrary code execution
+    cve_id: CVE-2022-21797
+    cve_url: https://github.com/advisories/GHSA-6hrg-qmvc-2xh8
+    detected_date: Sep 30
+    severity: critical
+    first_patched: 1.2.0
+- name: pynput
+  description: Monitor and control user input devices
+  package_url: https://pypi.org/project/pynput
+  version: 1.7.4
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20483/default_e8ecf818f54abae483b7b54d28bb2e09dbcb096f.png
+  detection_source_url: https://github.com/ctavolazzi/TRPG/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Vinicius Cordeiro
+  last_updated_on: 2021-11-02 06:20:50.000000000 Z
